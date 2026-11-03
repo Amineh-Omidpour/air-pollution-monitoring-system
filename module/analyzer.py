@@ -45,4 +45,17 @@ class Analyzer:
                                                        ),
                              }
         return summary
+    def get_most_polluted_region(self, hours=24):    
+        df = self.get_dataframe(hours)
+        if df.empty:
+            return None, 0
+        region_avg = df.groupby("region")["pm25"].mean()
+        return region_avg.idxmax(), region_avg.max()
+    def get_cleanest_region(self, hours=24):
+        df = self.get_dataframe(hours)
+        if df.empty:
+            return None, 0
+        else:
+            region_avg = df.groupby("region")["pm25"].mean()
+            return region_avg.idxmin(), region_avg.min()
     
