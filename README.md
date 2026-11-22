@@ -157,3 +157,9 @@ This project uses simulated air pollution data for educational and demonstration
 ### 3. Hourly PM2.5 Heatmap
 
 ![Hourly Heatmap](plots/Hourly_heat_map_20261122-165343.png)
+
+## Kaggle Notebook
+
+Explore the project overview, workflow, and visualizations in the Kaggle notebook:
+
+[Air Pollution Monitoring System – Kaggle Notebook](https://www.kaggle.com/code/aminehomidpour/air-pollution-monitoring-system-data-engineering)
