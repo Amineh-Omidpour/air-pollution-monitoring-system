@@ -10,7 +10,7 @@ __pycache__/
 .env
 
 # Generated charts
-plots/
+# plots/
 
 # Test and coverage files
 .pytest_cache/
