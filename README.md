@@ -143,3 +143,17 @@ The project includes separate test scripts to verify database connectivity, data
 ## Disclaimer
 
 This project uses simulated air pollution data for educational and demonstration purposes. The AQI calculation is simplified and is based primarily on PM2.5 concentrations. The results should not be interpreted as real-time environmental measurements or official air quality assessments.
+
+## Visualizations
+
+### 1. PM2.5 Trend by Region
+
+![PM2.5 Trend](plots/pm25_trend_20261122_165342.png)
+
+### 2. Average Pollutant Levels Comparison
+
+![Pollutant Comparison](plots/pollutant_comparison_20261122_165343.png)
+
+### 3. Hourly PM2.5 Heatmap
+
+![Hourly Heatmap](plots/Hourly_heat_map_20261122-165343.png)
